@@ -16,7 +16,6 @@ class UDP_Thread {
 
 private:
 
-	FILE *ofp;				// File log
 	pthread_t _thread;		// thread
 	int sockfd,n;			// UDP
 	struct sockaddr_in servaddr,cliaddr; 	// UDP
